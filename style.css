@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.con {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+nav {
+  padding-top: 20px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+  position: relative;
+}
+.btn_mobi {
+  padding: 10px 8px;
+  border-radius: 15px;
+  border: 0;
+  font-weight: 700;
+  color: white;
+  background-color: red;
+  transition: 1s;
+  &:hover {
+    background-color: white;
+    color: red;
+  }
+  font-size: 10px;
+}
+.abaut_me {
+  padding: 0 20px !important;
+}
+.text {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: 0 0 10px 10px black;
+  text-align: center;
+  background-color: red;
+  cursor: pointer;
+  transition: 1s;
+  transform: translateY(-65px);
+  border: 1px solid red;
+  &:hover {
+    background-color: white;
+    color: red;
+  }
+}
+.mee {
+  width: 100%;
+}
+.color1 {
+  transform: translateY(-60px);
+  z-index: 1;
+}
+p {
+  color: red;
+  font-size: 30px;
+}
+label,
+input {
+  display: block;
+}
+.flex-left {
+  margin-bottom: 20px;
+}
+label {
+  margin-bottom: 5px;
+}
+
+form {
+  text-align: center;
+  margin-top: 40px !important;
+}
+input,
+.text2 {
+  width: 100%;
+  height: 40px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  color: red;
+  font-size: 25px;
+  font-weight: 700;
+  border: 1px solid red;
+}
+label {
+  color: red;
+  font-weight: 700;
+  font-size: 25px;
+}
+.color,
+.text2 {
+  text-align: center;
+  margin-top: 20px;
+  background-color: red;
+  color: white;
+  transition: 1s;
+  &:hover {
+    background-color: white;
+    color: red;
+  }
+}
+a {
+  text-decoration: none;
+}
+footer {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  background-color: red;
+  color: white;
+  bottom: 0;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+.flex_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 4px 0 15px 0 !important;
+}
