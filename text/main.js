@@ -9,11 +9,11 @@ var ready = function () {
   message = document.querySelector("#manzil").value;
 
   message =
-    "🔴 Саволи: " +
+    "🔴 Телефон раками:" +
     lname +
     "\n⚪️ Исми: " +
     u_name +
-    "\n🔴 Телефон раками: " +
+    "\n🔴 Саволи:" +
     message;
 };
 var sendtelegram = function () {
